@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Registre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form Registre</h1>
+      <form>
+        <input
+          name="nome"
+          type="text"
+          placeholder="Nome Completo  |  ex: João Gabriel Luciano"
+          required
+        />
+        <input
+          id="campo-email"
+          name="email"
+          type="email"
+          placeholder="E-mail  |  ex: seuemail@exemplo.com"
+          required
+        />
+        <input
+          id="campo-telefone"
+          name="telefone"
+          type="tel"
+          placeholder="Telefone  |  ex: (43) 99614-2131"
+          required
+        />
+        <input
+          id="campo-cpf"
+          name="cpf"
+          type="tel"
+          placeholder="CPF  |  ex: 000.000.000-00"
+          required
+        />
+        <input
+          type="text"
+          name="endereco"
+          placeholder="Endereço  |  ex: Av. Exemplo, 123"
+          required
+        />
+        <input
+          id="campo-cep"
+          name="cep"
+          type="tel"
+          placeholder="CEP  |  ex: 00000-000"
+          required
+        />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
